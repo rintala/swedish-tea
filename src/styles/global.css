@@ -4,8 +4,9 @@ body {
   --textNormal: rgb(0, 0, 0);
   --textTitle: #000000;
   --textLink: #18293a;
-  --hr: hsla(0, 0%, 0%, 0.2);
+  --hr: hsla(0, 0%, 0%, 0.726);
   --selectionColor: #c7f5ff;
+  --mainTitle: #18293a;
   background-color: var(--bg);
 }
 
@@ -15,14 +16,37 @@ body.dark {
   --textNormal: #dbdbdb;
   --textTitle: white;
   --textLink: yellow;
-  --hr: hsla(0, 0%, 100%, 0.2);
+  --hr: #dbdbdbe1;
+  --mainTitle: #dbdbdb;
   --selectionColor: #bb8a00;
+}
+
+ul,
+ol {
+  border-left: 15px;
+  margin: 1.5em 35px;
+}
+blockquote {
+  border-left: 5px solid #dbdbdb;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: var(--hr);
+}
+
+blockquote.dark {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  --blockText: #dbdbdb;
 }
 
 .dark-switcher {
   color: #fff;
   margin-top: 5px;
-  background: #25caef;
+  background: var(--mainTitle);
+  color: var(--bg);
   /*   background: transparent; */
   /* background: #18293a; */
   border: none;
@@ -53,11 +77,6 @@ a.dark {
   --textLink: #ffe426;
 }
 
-h1,
-h2 {
-  /*  color: #25caef; */
-}
-
 #mainTitle {
-  color: #25caef;
+  color: var(--mainTitle);
 }

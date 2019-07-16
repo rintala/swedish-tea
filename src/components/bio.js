@@ -55,11 +55,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Stockholm
-        building uniqueness.
+        Written by <strong>{author}</strong>. Based in Stockholm with a passion
+        for web development and creating elegant digital solutions.
         {` `}
         <a href={`https://github.com/${social.github}`}>
-          Check his projects out on Github
+          Check out his projects on Github
         </a>
       </p>
     </div>

@@ -78,10 +78,32 @@ class Layout extends React.Component {
               >
                 <header>{header}</header>
                 <main>{children}</main>
-                <footer>
-                  © {new Date().getFullYear()}, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+                <footer
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    paddingTop: "80px",
+                  }}
+                >
+                  <div
+                    style={{ display: "flex", justifyContent: "space-between" }}
+                  >
+                    <p>
+                      <a href="https://www.linkedin.com/in/jonathan-rintala/">
+                        Linkedin
+                      </a>
+                    </p>
+
+                    <p style={{ paddingLeft: "10px" }}>
+                      <a href="https://github.com/rintala">Github</a>
+                    </p>
+                    <p style={{ paddingLeft: "10px" }}>
+                      <a href="https://www.jonathanrintala.se/">
+                        Personal website
+                      </a>
+                    </p>
+                  </div>
+                  © {new Date().getFullYear()}
                 </footer>
               </div>
             </div>
