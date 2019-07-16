@@ -22,8 +22,9 @@ body.dark {
 .dark-switcher {
   color: #fff;
   margin-top: 5px;
-  /* background: transparent; */
-  background: red;
+  background: #25caef;
+  /*   background: transparent; */
+  /* background: #18293a; */
   border: none;
   cursor: pointer;
 }

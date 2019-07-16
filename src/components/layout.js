@@ -4,13 +4,6 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      isDark: true,
-    }
-  }
-
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
@@ -61,16 +54,6 @@ class Layout extends React.Component {
       )
     }
 
-    {
-      /* <label>
-              <input
-                type="checkbox"
-                onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-                checked={theme === "dark"}
-              />{" "}
-              Dark mode
-            </label> */
-    }
     return (
       <>
         <ThemeToggler>
@@ -78,16 +61,11 @@ class Layout extends React.Component {
             <div>
               <button
                 className="dark-switcher"
-                onClick={() => (
-                  toggleTheme(this.state.isDark ? "dark" : "light"),
-                  this.setState({ isDark: !this.state.isDark })
-                )}
+                onClick={() =>
+                  toggleTheme(theme === "light" ? "dark" : "light")
+                }
               >
-                {!this.state.isDark ? (
-                  <span>Light mode ☀</span>
-                ) : (
-                  <span>Dark mode ☾</span>
-                )}
+                {theme === "dark" ? <span>☀</span> : <span>☾</span>}
               </button>
 
               <div
