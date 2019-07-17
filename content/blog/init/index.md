@@ -17,7 +17,7 @@ In this post, I will start off with a quick step-by-step walkthrough of how I se
 
 ## <a name="intro"> 1. Intro</a>
 
-My inspiration for the setup of this blog was the React guru [Dan Abramov](https://mobile.twitter.com/dan_abramov) and his blog [overreacted.io](#https://overreacted.io/), using the [Gatbsy Starter Blog](#https://github.com/gatsbyjs/gatsby-starter-blog) boilerplate. I liked the idea of a minimalistic design, clean markdown-based posts and lightning fast loading times. Also, since I am comfortable with React, the convenience of being based in React, allowed me to get to the point of producing content quickly. In addition, choosing a familiar stack, allows for some synergies in re-using components as well as being comfortable in implementing new more complex features.
+My inspiration for the setup of this blog was the React guru [Dan Abramov](https://mobile.twitter.com/dan_abramov) and his blog [overreacted.io](https://overreacted.io/), using the [Gatsby Starter Blog](https://github.com/gatsbyjs/gatsby-starter-blog) boilerplate. I liked the idea of a minimalistic design, clean markdown-based posts and lightning fast loading times. Also, since I am comfortable with React, the convenience of being based in React, allowed me to get to the point of producing content quickly. In addition, choosing a familiar stack, allows for some synergies in re-using components as well as being comfortable in implementing new more complex features.
 
 
 
