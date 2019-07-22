@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Swedish Tea ☕`,
     author: `Jonathan Rintala`,
+    email: `jrintala@kth.se`,
     description: `A blog from the cold north`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {

@@ -24,6 +24,7 @@ const Bio = () => {
       site {
         siteMetadata {
           author
+          email
           social {
             twitter
             github
@@ -33,7 +34,7 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author, social, email } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -60,7 +61,8 @@ const Bio = () => {
         {` `}
         <a href={`https://github.com/${social.github}`}>
           Check out his projects on Github
-        </a>
+        </a>{" "}
+        or get in touch at <a href={`mailto:${email}`}>{`${email}`}</a>.
       </p>
     </div>
   )

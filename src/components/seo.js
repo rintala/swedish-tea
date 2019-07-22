@@ -52,6 +52,10 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          name: `email`,
+          content: site.siteMetadata.email,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
