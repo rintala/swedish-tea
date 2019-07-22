@@ -18,7 +18,7 @@ Kattis is a great online tool for automatically checking solutions on programmin
 
 [Kattis](https://open.kattis.com) is a free tool developed by the competive programming department @ [KTH Royal Institute of Technology](https://www.kth.se/) in Sweden. Kattis consists of a platform offering hundreds of programming problems for you to solve and automatically checks them for you. The platform also has a ranking list for each problem based on time complexity and accepts solutions in about 20 languages!
 
-![kattis-languages](kattis-languages.png)
+<a href="https://open.kattis.com/help">![kattis-languages](kattis-languages.png)</a>
 
 *Solutions for these languages are currently accepted*
 
@@ -26,7 +26,7 @@ Kattis is a great online tool for automatically checking solutions on programmin
 
 Kattis also indicates a level of difficulty on each problem, so you can start with the easy ones and work your way up, or in whatever order suits you. In addition to the difficulty level you can view other users' performance on each task, and in that way get a sense for how many attempted the problem vs. how many actually solved it, etc.
 
-​			![problem-list](problem-list.png)
+​		<a href="https://open.kattis.com/problems">	![problem-list](problem-list.png)</a>
 
 *A sample of the problem list in Kattis*
 
@@ -36,12 +36,12 @@ Kattis also indicates a level of difficulty on each problem, so you can start wi
 
 I love learning about programming techniques by reading articles and books, but for me *implementation is everything*. It is first once you have implemented the concepts and patterns in real code you truly start understanding them and begin to grasp the WHY behind using them. So whether you learn programming in a traditional setting through a university or on your own, the skills of understanding the WHY is fundamental and can be improved through use of Kattis. In addition, I have experienced the following upsides with using Kattis:
 
-- Building your practical experience.
+- Building practical experience.
 
 - Learning and understanding time complexity.
 - Diving into a new language.
 - Driving you to code, while doing it fast and accurately.
-- Developing your portfolio.
+- Developing a portfolio.
 
 
 
@@ -63,7 +63,7 @@ Furthermore, Kattis drives you to produce code as you solve fun tasks and will c
 
 
 
-**Developing your portfolio**
+**Developing a portfolio**
 
 Finally, by being able to show a track record of well executed and correct tasks on Kattis, you can show potential firm that you have actual competence in a language and can produce useful code. Of course this can be done in a lot of other ways - by working in open-source projects, maintaining a clean Git portfolio, etc. But Kattis is a nice way to solve smaller tasks, one by one, and for yourself see your progression as you become a more comfortable, competent and productive programmer.
 
