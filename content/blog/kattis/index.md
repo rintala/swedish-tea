@@ -7,7 +7,7 @@ description: "A useful tool in your programming journey"
 
 <a href="https://open.kattis.com/"><img src="kattis-logo.png"/></a>
 
-Kattis is a great online tool for automatically checking solutions on programming tasks; it has been a helpful addition to my programming journey and therefore I would like to share it with you. I started using it as part of my courses at KTH and have continued solving some Kattis problems on my spare time, improving my programming skills in Java, Python and C++.s
+Kattis is a great online tool for automatically checking solutions on programming tasks; it has been a helpful addition to my programming journey and therefore I would like to share it with you. I started using it as part of my courses at KTH and have continued solving some Kattis problems on my spare time, improving my programming skills in Java, Python and C++.
 
 1. [Intro](#intro)
 2. [Why use Kattis?](#why-use-kattis)
