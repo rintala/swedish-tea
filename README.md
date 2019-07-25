@@ -10,11 +10,10 @@ My personal blog. Built on Gatsby, using the [Gatsby blog starter](https://githu
 
 1.  Navigate into the project root
 
-    ```sh
+    ```shell
 cd swedish-tea/
-    gatsby develop
+gatsby develop
     ```
     
     The site is now running at `http://localhost:8000`!
-
 
