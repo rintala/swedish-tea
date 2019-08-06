@@ -61,8 +61,13 @@ const Bio = () => {
         {` `}
         <a href={`https://github.com/${social.github}`}>
           Check out his projects on Github
-        </a>{" "}
-        or get in touch at <a href={`mailto:${email}`}>{`${email}`}</a>.
+        </a>
+        , or watch{" "}
+        <a href={`https://www.youtube.com/channel/UCo3Zr98jG8_qhNb8GE8AIEw/`}>
+          Swedish Tea on Youtube
+        </a>
+        {/* , or get in touch at <a href={`mailto:${email}`}>{`${email}`}</a> */}
+        .
       </p>
     </div>
   )
