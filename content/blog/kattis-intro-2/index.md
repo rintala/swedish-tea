@@ -6,7 +6,7 @@ description: "Get familiar with the input/output in Kattis using Go"
 
 ![box-header](box-header-1.jpg)
 
-If you need a brief introduction to Kattis, i.e. part 1, please refer to <a href="/kattis-intro-1">the article</a> I wrote on this topic a couple of weeks ago or the <a href="https://youtu.be/V0PUy29vFd8">Youtube video</a> if you prefer your Swedish Tea in a more interactive format. Today, in part 2, we will go through how to handle input and output in Kattis using Go. However, the concepts apply to any programming language, [this guide](https://open.kattis.com/help) could be helpful if your working in another language and want the exact syntaxes for working with stdin/stdout.
+If you need a brief introduction to Kattis, i.e. part 1, please refer to <a href="/kattis-intro-1">the article</a> I wrote on this topic a couple of weeks ago or the <a href="https://youtu.be/V0PUy29vFd8">Youtube video</a> if you prefer your Swedish Tea in a more interactive format. Today, in part 2, we will go through how to handle input and output in Kattis using Go. However, the concepts apply to any programming language. If you want additional help with the exact syntaxes for working with stdin/stdout in another language, refer to [this guide](https://open.kattis.com/help).
 
 1. [Kattis problem structure](#problem-structure)
 2. [Input in Kattis](#input)
@@ -56,7 +56,7 @@ func main() {
 
 We declare the numberOfEntries variable as an integer, since for this problem, we know the first row will always contain the number of entries as an integer. Scanf will parse the arguments according to a format string, i.e. the first parameter we provide to Scanf. The format string in this case is `"%d"`, where we specify we are looking for an integer of base 10. The second parameter is a pointer to the variable where the matching value from stdin will be stored, in this case we point to the variable `numberOfEntries` via the pointer `&numberOfEntries`.
 
-For the second row of the output I declare a function `readEntries(n int)`, that will take an arbitrary number `n` and read that many entries into a slice:
+For the second row of the output I declare a function `readEntries(n int)`, that will take an arbitrary number `n` and read this number of entries into a slice:
 
 ```go
 func readEntries(n int) ([]int, error) {
@@ -82,7 +82,7 @@ totExpenses := calculateExpenses(entries)
 fmt.Println(totExpenses)
 ```
 
-## <a name="submit-to-judge">4. Submit your solution</a>
+## <a name="submit">4. Submit your solution</a>
 
 Now make sure to clean your code up and remove any unnecessary outputs that you might have from dev. Any deviations or extra content on stdout will cause Kattis to reject your solution, so double-check this by running your code in the terminal before submitting:
 
@@ -97,9 +97,11 @@ The output looks clean and tidy, so let's proceed by submitting to Kattis.
 
 
 
-We drag and drop our code over to the designated area, double check that the language is correctly identified as Go, and press submit.![submit-final](img/submit-final.png)
+We drag and drop our code over to the designated area, double check that the language is correctly identified as Go, and press submit.
 
-Hopefully your solution passes all the Kattis tests and you can achieve your points and proceed to the next one. Great job! If your solution fails some test, go back to the drawing board, think about edge cases and try to write some own tests and see how your code behaves. Also going through each function and line of code, thinking about it's purpose and behaviour can help in the debugging process.
+![submit-final](img/submit-final.png)
+
+Hopefully your solution passes all the Kattis tests and you can achieve your points and proceed to the next one. Great job! If your solution fails some test, go back to the drawing board, think about edge cases and try to write some own tests and see how your code behaves. Also, to go through each function and line of code, thinking about its purpose and behaviour can help in the debugging process.
 
 ![kattis-tests](img/kattis-tests.png)
 
