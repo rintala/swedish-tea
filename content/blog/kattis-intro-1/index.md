@@ -4,7 +4,7 @@ date: "2019-07-22T22:19:05.124Z"
 description: "A useful tool in your programming journey"
 ---
 
-<a href="https://open.kattis.com/"><img src="kattis-logo.png"/></a>
+![code-kattis](code-kattis.jpg)
 
 Kattis is a great online tool for automatically checking solutions to programming tasks; it has been a helpful addition to my programming journey and therefore I would like to share it with you. I started using it as part of my courses at KTH and have continued solving some Kattis problems on my spare time, improving my programming skills in Java, Python and C++.
 
@@ -23,7 +23,7 @@ _Solutions for these languages are currently accepted_
 
 Kattis also indicates a level of difficulty on each problem, so you can start with the easy ones and work your way up, or in whatever order suits you. In addition to the difficulty level you can view other users' performance on each task, and in that way get a sense for how many attempted the problem vs. how many actually solved it, etc.
 
-​ <a href="https://open.kattis.com/problems"> ![problem-list](problem-list.png)</a>
+ <a href="https://open.kattis.com/problems"> ![problem-list](problem-list.png)</a>
 
 _A sample of the problem list in Kattis_
 

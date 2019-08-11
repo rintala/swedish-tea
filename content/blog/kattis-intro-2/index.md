@@ -20,8 +20,6 @@ Solving a problem on [Kattis](https://open.kattis.com) requires understanding th
 
 <img src="qaly-problem.png" width="250px"/>
 
-_Sample data files to download on the Kattis problem page_.
-
 
 
 ## <a name="input">2. Input in Kattis</a>
@@ -96,8 +94,6 @@ go run job-expenses.go < samples/01.in
 The output looks clean and tidy, so let's proceed by submitting to Kattis.
 
 <img src="qaly-submit.png" width="250px"/>
-
-*Submitting your solution via the Kattis problem page*.
 
 
 
