@@ -4,7 +4,7 @@ date: "2019-08-30T22:12:03.284Z"
 description: "Getting equality in JS straight: == vs ==="
 ---
 
-![equality-header](./img/equality-js-1.jpg)
+![equality-header](./img/equality-js.jpg)
 
 1. [Intro](#intro)
 2. [Loose Equality](#loose-equality)
