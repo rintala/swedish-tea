@@ -1,7 +1,7 @@
 ---
 title: "New Programming Gloves for My Cold Office 🧤🧤"
 date: "2021-01-10T12:00:24.004Z"
-description: "Goal: Reading 52 books in 2021"
+description: "Keep Hands Warm, Type Fast, and Stay Stylish"
 ---
 
 ![gloves-header](./img/programming-gloves-in-action.jpg)
