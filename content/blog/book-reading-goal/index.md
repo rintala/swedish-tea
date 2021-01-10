@@ -1,10 +1,10 @@
 ---
 title: "One book a week during 2021 🎯📖"
-date: "2020-01-03T22:20:24.004Z"
+date: "2021-01-03T22:20:24.004Z"
 description: "Goal: Reading 52 books in 2021"
 ---
 
-![equality-header](./img/books.jpg)
+![books-header](./img/books.jpg)
 
 1. [The Power of Setting Goals](#intro)
 2. [My 2021 Reading Goal](#reading-goal)
