@@ -1,7 +1,7 @@
 ---
 title: "New Programming Gloves for My Cold Office 🧤🧤"
 date: "2021-01-10T12:00:24.004Z"
-description: "Keep Hands Warm, Type Fast, and Stay Stylish"
+description: "Keep hands warm, type fast, and stay stylish"
 ---
 
 ![gloves-header](./img/programming-gloves-in-action.jpg) \* _Don't mind the
