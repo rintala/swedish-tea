@@ -6,8 +6,6 @@ description: "(1) A fascinating ride, relentless drive, and putting customers fi
 
 ![the-everything-store-jeff-bezos-header](./img/the-everything-store-jeff-bezos.jpg)
 
-**Swedish Tea Rating:** ☕☕☕☕☕
-
 ## <a name="intro">A fascinating ride</a>
 
 Jeff Bezos is now one of the richest people on earth and world-famous for his fierce leadership and stunningly bold, yet accurate, visions about the future. It is inspiring to read about Amazon's journey, and how it was not always straight, rather quite rocky, and involved a lot of difficult and controversial decisions. Also, how the company almost collapsed several times but has managed to survive and thrive in new areas that were not even thought of back in 1994 - for example, that the e-book market would be huge and the fact that Amazon with Kindle would become a massive hardware company, or even more remarkable - that Amazon would be the leading provider of web services with AWS. It seems this ability to innovate has stayed with the company since the beginning and has been essential in the success of the company.
@@ -28,4 +26,4 @@ Truly a great book. I enjoyed reading the mix of informative biography and fasci
 
 Find the book on Amazon: https://amzn.to/2LKIT6L
 
-Want find out more about my reading journey - see the post about my 2021 reading challenge <a href="/book-reading-goal/">here</a>.
+Want find out more about my reading journey - see the post about <a href="/book-reading-goal/">my 2021 reading goal</a>.
